@@ -1,4 +1,3 @@
-// src/components/EMIDisplay.js
 import React, { useState } from 'react';
 
 import { Button, Container, Stack, TextField } from '@mui/material';
@@ -12,7 +11,7 @@ const EMIDisplay = () => {
 
   const calculateEMI = () => {
     // EMI calculation logic
-    // Use the formula to calculate EMI based on loan amount, interest rate, and tenure.
+  
     const p = loanAmount; // Loan Amount
     const r = (interestRate / 12 / 100); // Monthly interest rate
     const n = loanTenure; // Total number of payments
